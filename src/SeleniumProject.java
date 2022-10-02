@@ -29,11 +29,11 @@ public class SeleniumProject {
 
         driver.findElement(By.id("hideLogin")).click();
 
-        driver.findElement(By.name("username")).sendKeys("qononido");
+        driver.findElement(By.name("username")).sendKeys("gononido");
         driver.findElement(By.name("firstName")).sendKeys("Jon");
         driver.findElement(By.name("lastName")).sendKeys("do");
-        driver.findElement(By.name("email")).sendKeys("qononido2022@yahoo.com");
-        driver.findElement(By.name("email2")).sendKeys("qononido2022@yahoo.com");
+        driver.findElement(By.name("email")).sendKeys("gononido2022@yahoo.com");
+        driver.findElement(By.name("email2")).sendKeys("gononido2022@yahoo.com");
         driver.findElement(By.name("password")).sendKeys("condo6789");
         driver.findElement(By.name("password2")).sendKeys("condo6789", Keys.ENTER);
 
@@ -85,7 +85,7 @@ public class SeleniumProject {
         }
 
         Thread.sleep(500);
-        driver.findElement(By.name("loginUsername")).sendKeys("qononido");
+        driver.findElement(By.name("loginUsername")).sendKeys("gononido");
         driver.findElement(By.name("loginPassword")).sendKeys("condo6789", Keys.ENTER);
 
         Thread.sleep(500);
@@ -98,5 +98,3 @@ public class SeleniumProject {
     }}
 
 
-//10. Login using the same username and password when you signed up.
-//11. Verify successful login by verifying that the home page contains the text "You Mi)ght Also Like".*/
